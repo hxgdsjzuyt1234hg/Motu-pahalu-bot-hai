@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("28823969", ""))
-API_HASH = getenv("8b1809d12cb3ac2c445f146b3262e521")
+API_ID = int(getenv("27317050", ""))
+API_HASH = getenv("2c28cb8f527dbcd8fbd92a76b44dacb8")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("7633980475:AAEpSiZOYYEdnIrpnLaOHpec_gDUjE7nsWk")
+BOT_TOKEN = getenv("7918682864:AAHkRDkMjdDy_HXYSy0En3QSGcKTqTowe0k")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://ajaybabu69f:XF0vwerJ7QuyYJGS@cluster0.1vop5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MOTU_PATALU_MUSIC_BOT")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("8134376734", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
